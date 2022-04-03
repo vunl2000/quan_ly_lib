@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">LibMana</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tittle_phieumuon">Quản lý phiếu mượn</string>
+    <string name="tittle_loaisach">Quản lý loại sách</string>
+    <string name="tittle_sach">Quản lý sách</string>
+    <string name="tittle_thanhvien">Quản lý thành viên</string>
+    <string name="tittle_thongke">10 sách mượn nhiều nhất</string>
+    <string name="tittle_doanhthu">Doanh thu</string>
+    <string name="tittle_adduser">Tạo tài khoản</string>
+    <string name="tittle_doiMK">Đổi mật khẩu</string>
+    <string name="tittle_logout">Đăng xuất</string>
+    <string name="tittle_tien">Thống kê</string>
+    <string name="tittle_user">Người dùng</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="passworld">Mật khẩu</string>
+    <string name="remember">Lưu tài khoản</string>
+    <string name="login">Đăng nhập</string>
+    <string name="cancel">Hủy</string>
+    <string name="pass_old">Mật khẩu cũ</string>
+    <string name="re_pass">Nhập lại mật khẩu</string>
+    <string name="save">Lưu</string>
+    <string name="name">Họ và tên</string>
+    <string name="ma_tv">Mã thành viên</string>
+    <string name="nam_sinh">Năm sinh</string>
+    <string name="ten_loai">Tên loại sách</string>
+    <string name="ten_sach">Tên sách</string>
+    <string name="gia">Giá thuê</string>
+    <string name="loai">Loại sách</string>
+    <string name="tv">Thành viên</string>
+    <string name="date">Ngày thuê</string>
+    <string name="money">Tiền thuê</string>
+    <string name="checked">Đã trả sách</string>
+    <string name="startday">Từ ngày</string>
+    <string name="endday">Đến ngày</string>
+    <string name="view">Xem</string>
+</resources>

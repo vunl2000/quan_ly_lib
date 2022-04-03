@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_PhieuMuon">
+    <fragment
+        android:id="@+id/nav_PhieuMuon"
+        android:name="com.example.mob2041_vunlph12949.ui.PhieuMuonFragment"
+        android:label="@string/tittle_phieumuon"
+        tools:layout="@layout/fragment_phieu_muon" />
+    <fragment
+        android:id="@+id/nav_LoaiSach"
+        android:name="com.example.mob2041_vunlph12949.ui.LoaiSachFragment"
+        android:label="@string/tittle_loaisach"
+        tools:layout="@layout/fragment_loai_sach" />
+    <fragment
+        android:id="@+id/nav_Sach"
+        android:name="com.example.mob2041_vunlph12949.ui.SachFragment"
+        android:label="@string/tittle_sach" />
+    <fragment
+        android:id="@+id/nav_ThanhVien"
+        android:name="com.example.mob2041_vunlph12949.ui.ThanhVienFragment"
+        android:label="@string/tittle_thanhvien" />
+    <fragment
+        android:id="@+id/nav_ThongKe"
+        android:name="com.example.mob2041_vunlph12949.ui.TopFragment"
+        android:label="@string/tittle_thongke" />
+    <fragment
+        android:id="@+id/nav_DoanhThu"
+        android:name="com.example.mob2041_vunlph12949.ui.DoanhThuFragment"
+        android:label="@string/tittle_doanhthu"
+        tools:layout="@layout/fragment_doanh_thu" />
+    <fragment
+        android:id="@+id/nav_TaoTaiKhoan"
+        android:name="com.example.mob2041_vunlph12949.ui.AddUserFragment"
+        android:label="@string/tittle_adduser"
+        tools:layout="@layout/fragment_tao_tai_khoan" />
+    <fragment
+        android:id="@+id/nav_DoiMatKhau"
+        android:name="com.example.mob2041_vunlph12949.ui.ChangePassFragment"
+        android:label="@string/tittle_doiMK"
+        tools:layout="@layout/fragment_doi_mat_khau" />
+    <fragment
+        android:id="@+id/nav_DangXuat"
+        android:name="com.example.mob2041_vunlph12949.ui.PhieuMuonFragment"
+        tools:layout="@layout/fragment_phieu_muon" />
+</navigation>

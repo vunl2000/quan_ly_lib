@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_PhieuMuon"
+            android:icon="@drawable/ic_home"
+            android:title= "@string/tittle_phieumuon"/>
+        <item
+            android:id="@+id/nav_LoaiSach"
+            android:icon="@drawable/ic_loaisach"
+            android:title="@string/tittle_loaisach" />
+        <item
+            android:id="@+id/nav_Sach"
+            android:icon="@drawable/ic_book"
+            android:title="@string/tittle_sach" />
+        <item
+            android:id="@+id/nav_ThanhVien"
+            android:icon="@drawable/ic_person"
+            android:title="@string/tittle_thanhvien" />
+    </group>
+    <item android:title="@string/tittle_tien">
+        <menu>
+            <item
+                android:id="@+id/nav_ThongKe"
+                android:icon="@drawable/ic_top"
+                android:title="@string/tittle_thongke" />
+            <item
+                android:id="@+id/nav_DoanhThu"
+                android:icon="@drawable/ic_money"
+                android:title="@string/tittle_doanhthu" />
+        </menu>
+    </item>
+    <item android:title="@string/tittle_user">
+        <menu>
+            <item
+                android:id="@+id/nav_TaoTaiKhoan"
+                android:icon="@drawable/ic_add_user"
+                android:visible="false"
+                android:title="@string/tittle_adduser" />
+            <item
+                android:id="@+id/nav_DoiMatKhau"
+                android:icon="@drawable/ic_key"
+                android:title="@string/tittle_doiMK" />
+            <item
+                android:id="@+id/nav_DangXuat"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/tittle_logout" />
+        </menu>
+    </item>
+</menu>
